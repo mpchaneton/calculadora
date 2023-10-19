@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: darkslategray;
+}
+
+#calculator {
+    background-color: lightsteelblue;
+    border-radius: 2%;
+    padding: 0.5%;
+}
+
+#display {
+    text-align: right;
+    padding: 5% 0 5% 0;
+    margin: 5% 0 5% 0;
+    color: darkslategray;
+}  
+
+.operator {
+    color: darkslategray;
+    font-weight: 700;
+}
+
+button {
+    width: 22%;
+    height: 42%;
+    border: 1px solid darkslategray;
+    border-radius: 15%;
+    padding: 5%;
+    color: darkslategray;
+    font-weight: 700;
+}
+
+footer {
+    position: absolute;
+    top: 80%;
+	color:gray;
+	display: flex;
+	justify-content: end;
+	padding: 2%;
+}
